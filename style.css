@@ -304,7 +304,7 @@ footer>div:first-child {
    text-decoration: underline;
 }
 
-#owner{
+#owner {
    position: fixed;
    z-index: 9999;
    width: 100%;
@@ -319,15 +319,18 @@ footer>div:first-child {
 
 
 @media screen and (max-width:1010px) {
-   .text5{
+   .text5 {
       font-size: 32px;
    }
-   .flex6{
+
+   .flex6 {
       row-gap: 10px;
    }
-   .flex5{
+
+   .flex5 {
       column-gap: 10px;
    }
+
    .section1 {
       flex-direction: column;
       justify-content: center;
@@ -367,7 +370,7 @@ footer>div:first-child {
       max-width: 90vw;
    }
 
-   .main>nav>div>img{
+   .main>nav>div>img {
       width: 100px;
    }
 
@@ -408,30 +411,38 @@ footer>div:first-child {
       font-size: 16px;
    }
 
-   .reverse{
+   .reverse {
       flex-direction: column-reverse;
    }
 
-   .flex5{
+   .flex5 {
       grid-template-columns: 1fr 1fr;
    }
 
-   footer{
-      margin: 50px auto;   
+   footer {
+      margin: 50px auto;
       padding-bottom: 10px;
    }
 
-   
+
 }
 
 
 @media screen and (max-width:420px) {
-   #owner{
+   #owner {
       font-size: 13px;
    }
 }
 
-.zind{
+.zind {
    position: relative;
    z-index: 1;
+}
+
+.name {
+   color: rgb(151, 151, 151);
+}
+
+.name:hover {
+   color: #ffeaea;
 }
